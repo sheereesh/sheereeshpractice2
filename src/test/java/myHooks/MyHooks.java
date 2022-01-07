@@ -22,7 +22,7 @@ public class MyHooks {
 	@After(order=1)
 	public void delayTime() {
 		try {
-			Thread.sleep(6000);
+			Thread.sleep(9000);
 		} catch (InterruptedException e) {
 			System.out.println(e);
 		}

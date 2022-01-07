@@ -86,7 +86,13 @@ public class StepDefintion {
 	
 		
 		Assert.assertEquals(act_Options, expOptions, "drop down options");
-	
+	try {
+		Thread.sleep(6000);
+	} catch (InterruptedException e) {
+
+System.out.println(e);
+
+	}
 	}
 	
 
